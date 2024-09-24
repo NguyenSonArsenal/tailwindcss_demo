@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Register</title>
+  <link href="./assets/css/tailwind/output.css" rel="stylesheet">
+  <link href="./assets/css/common.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="min-h-screen bg-white m-auto max_w_414px w-full h-full px-4 md:px-[15px] pt-[30px]">
+  <div>
+    <a class="text-myRed cursor-pointer" href="./login.html">
+      <div class="flex items-center">
+        <svg width="15" height="15" class="cursor-pointer" viewBox="0 0 24 24" fill="none">
+          <path d="M17 11.0002H9.41002L12.71 7.71019C12.8983 7.52188 13.0041 7.26649 13.0041 7.00019C13.0041 6.73388 12.8983 6.47849 12.71 6.29019C12.5217 6.10188 12.2663 5.99609 12 5.99609C11.7337 5.99609 11.4783 6.10188 11.29 6.29019L6.29002 11.2902C6.19898 11.3853 6.12761 11.4974 6.08002 11.6202C5.98 11.8636 5.98 12.1367 6.08002 12.3802C6.12761 12.5029 6.19898 12.6151 6.29002 12.7102L11.29 17.7102C11.383 17.8039 11.4936 17.8783 11.6154 17.9291C11.7373 17.9798 11.868 18.006 12 18.006C12.132 18.006 12.2627 17.9798 12.3846 17.9291C12.5065 17.8783 12.6171 17.8039 12.71 17.7102C12.8037 17.6172 12.8781 17.5066 12.9289 17.3848C12.9797 17.2629 13.0058 17.1322 13.0058 17.0002C13.0058 16.8682 12.9797 16.7375 12.9289 16.6156C12.8781 16.4937 12.8037 16.3831 12.71 16.2902L9.41002 13.0002H17C17.2652 13.0002 17.5196 12.8948 17.7071 12.7073C17.8947 12.5198 18 12.2654 18 12.0002C18 11.735 17.8947 11.4806 17.7071 11.2931C17.5196 11.1055 17.2652 11.0002 17 11.0002Z" fill="#EE3244"></path>
+        </svg> Quay lại
+      </div>
+    </a>
+    <div class="text-[32px] text-black font-medium mb-2">Đăng ký</div>
+    <div>
+      <span>Bạn đã có tài khoản?</span>
+      <a class="text-myRed cursor-pointer pl-1" href="./login.html">Đăng nhập</a>
+    </div>
+  </div>
+  <div class="text-myRed mt-6 text-[12px]"></div>
+  <form class="mt-6">
+    <div class="mt-4">
+      <label class="font-semibold">Email <span class="text-myRed">*</span>
+      </label>
+      <br>
+      <input placeholder="Nhập email" class="text-17px px-3 py-[10px] form_control" type="text" name="email">
+      <small>Bạn nhập địa chỉ email chính xác để hệ thống gửi mã OTP. Sau đó bạn dùng mã OTP để tiếp tục quá trình đăng kí nhé. </small>
+      <div class="text-myRed mt-1 text-[12px]"></div>
+    </div>
+    <button class="mb-3 mt-6 w-full rounded bg-myRed text-white text-center block py-[10px] ">Đăng ký</button>
+    <div class="text-[12px]">Bằng việc đăng ký, bạn xác nhận đồng ý với tất cả <span class="text-myRed cursor-pointer"> Điều khoản &amp; Điều kiện </span>của chúng tôi. </div>
+  </form>
+</div>
+
+</body>
+</html>

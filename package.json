@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.78.0",
+    "sass-loader": "^16.0.1",
+    "tailwindcss": "^3.4.13",
+    "webpack": "^5.94.0"
+  }
+}
